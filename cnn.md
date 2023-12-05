@@ -35,5 +35,5 @@ There are 2 types of pooling :-
 </p>
 
 <h3>STRUCTURE OF CNN</h3>
-Input image (224x224) --> Conv layers  ---------------> Pooling Layers -------> Conv Layers --------> Flatten Layer ------> Deep Neural n/w ----------> Output Layer
-                          (Kernels of diff dimensions)                                                                      (apply activation)
+Input image (224x224) --> Conv layers(Kernels of diff dimensions) ----> Pooling Layers ---> Conv Layers ---> Flatten Layer ---> Deep Neural n/w (apply activation)---> Output Layer
+                                                                                               
