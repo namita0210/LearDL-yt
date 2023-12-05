@@ -26,3 +26,14 @@ We have to multiply the kernel/filter matrix values with the input image pixel v
 
 <button>Till now we have understood how convolution works on a grayscale image, let us find out how it will work on a coloured image.</button>
 <ul> In color images - we apply a filter on each of the channels and then perform aggregation of the resul to get final transformed color image.</ul>
+
+<h2>POOLING</h2>
+<p>We perform pooling to reduce the spatial size of transformed image, by extracting the important features of the image. 
+There are 2 types of pooling :-
+<li><b>Max pooling : </b> It will return the maximum value from that portion of the image which is covered by the kernel.</li>
+<li><b>Average pooling : </b> It will return the average of all the values of the input image which is covered by the kernel.</li>
+</p>
+
+<h3>STRUCTURE OF CNN</h3>
+Input image (224x224) --> Conv layers  ---------------> Pooling Layers -------> Conv Layers --------> Flatten Layer ------> Deep Neural n/w ----------> Output Layer
+                          (Kernels of diff dimensions)                                                                      (apply activation)
