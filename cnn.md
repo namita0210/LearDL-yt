@@ -36,4 +36,8 @@ There are 2 types of pooling :-
 
 <h3>STRUCTURE OF CNN</h3>
 Input image (224x224) --> Conv layers(Kernels of diff dimensions) ----> Pooling Layers ---> Conv Layers ---> Flatten Layer ---> Deep Neural n/w (apply activation)---> Output Layer
-                                                                                               
+
+<h2>HANDS ON NOTES TO REMEMBER</h2>
+<li>Each kernel will have weight parameters and a bias term.</li>     
+<li>Whenever a convolutional layer is initialized using the layers.Conv2D command the weights and bias are initialized by default.</li>
+<li>If we do not want the bias to be initialized by default we can set use_bias equal to False.</li>
