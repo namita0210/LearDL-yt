@@ -40,4 +40,5 @@ Input image (224x224) --> Conv layers(Kernels of diff dimensions) ----> Pooling 
 <h2>HANDS ON NOTES TO REMEMBER</h2>
 <li>Each kernel will have weight parameters and a bias term.</li>     
 <li>Whenever a convolutional layer is initialized using the layers.Conv2D command the weights and bias are initialized by default.</li>
+<li>This is infact the kernel matrix's paramatere matrix of the same dimension and it is initialized by default</li>
 <li>If we do not want the bias to be initialized by default we can set use_bias equal to False.</li>
