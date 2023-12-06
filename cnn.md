@@ -42,3 +42,14 @@ Input image (224x224) --> Conv layers(Kernels of diff dimensions) ----> Pooling 
 <li>Whenever a convolutional layer is initialized using the layers.Conv2D command the weights and bias are initialized by default.</li>
 <li>This is infact the kernel matrix's paramatere matrix of the same dimension and it is initialized by default</li>
 <li>If we do not want the bias to be initialized by default we can set use_bias equal to False.</li>
+
+<h2>CNN ARCHITECTURE FOR IMAGE CLASSIFICATION</h2>
+<p> Suppose I am using the image of a cat for image classification.
+The first layer of my convolutional neural network --> input layer -->  will take the image data in a matrix form and reshape it.
+Next step would be to perform a convolution operation inside which will be a activation function
+After that we will perform pooling - mean or average -- to extract important features thereby decreasing the dimensions of the output
+There will again be a series of further convolutional operations
+Then at the last layer - whetever is the output - convert it into a single dimension  vector representation--> called Flattened layer
+This flattened layer will then be connected to a fully connected layer
+Then the output of the fully connected neural network will give the correct classification of the image that was passed in as an input.
+</p>
