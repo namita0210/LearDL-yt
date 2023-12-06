@@ -58,4 +58,7 @@ Then the output of the fully connected neural network will give the correct clas
 <p>Import necessary libraries.
 Get the data.
 Store the data into 3 folders - train , test , validate.
-Place these folders in a root directory - it will be in the current working directory represented by a dot</p>
+Place these folders in a root directory - it will be in the current working directory represented by a dot
+When you are sending the data to a convolutional layer there is no need to flatten it, but in case of sending data to a dense layer it needs to be flattened.</p>
+
+<h2>TRANSFER LEARNING</h2>
