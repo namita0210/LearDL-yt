@@ -53,3 +53,9 @@ Then at the last layer - whetever is the output - convert it into a single dimen
 This flattened layer will then be connected to a fully connected layer
 Then the output of the fully connected neural network will give the correct classification of the image that was passed in as an input.
 </p>
+
+<h2>Understanding the code for binary image classification using CNN</h2>
+<p>Import necessary libraries.
+Get the data.
+Store the data into 3 folders - train , test , validate.
+Place these folders in a root directory - it will be in the current working directory represented by a dot</p>
